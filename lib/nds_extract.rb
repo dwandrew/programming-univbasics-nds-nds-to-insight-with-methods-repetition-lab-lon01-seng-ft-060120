@@ -10,7 +10,9 @@ def directors_totals(source)
     result[director[:name]] = gross_for_director(director)
     director_index += 1
   end
+  pp result
   result
+  
 end
 
 
@@ -49,8 +51,7 @@ def total_gross(source)
   return total
 end
   
-pp directors_totals(source)
-pp list_of_directors(source)  
+
   # Write this implementation
   #
   # Should use methods:
