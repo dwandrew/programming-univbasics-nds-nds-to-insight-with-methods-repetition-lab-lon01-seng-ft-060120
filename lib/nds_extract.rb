@@ -44,6 +44,7 @@ def total_gross(source)
   total= 0;
   while index<source.length
   total += directors_totals(source)["Stephen Spielberg"]
+  puts list_of_directors(source)[index]
   index+= 1
   end
   puts total
