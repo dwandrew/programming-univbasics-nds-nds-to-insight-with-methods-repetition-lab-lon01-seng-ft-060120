@@ -46,7 +46,7 @@ def total_gross(source)
   total += directors_totals["Stephen Spielberg"]
   index+= 1
   end
-  pp total
+  puts total
   return total
 end
   
