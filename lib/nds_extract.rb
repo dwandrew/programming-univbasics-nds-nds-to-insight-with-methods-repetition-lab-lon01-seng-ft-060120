@@ -13,6 +13,7 @@ def directors_totals(source)
   result
 end
 
+
 def gross_for_director(d)
   total = 0
   index = 0
@@ -35,6 +36,7 @@ def list_of_directors(source)
   return director_list
 end
 
+
 def total_gross(source)
   index = 0;
   total= 0;
@@ -47,7 +49,8 @@ def total_gross(source)
   return total
 end
   
-  
+puts directors_totals
+puts list_of_directors  
   # Write this implementation
   #
   # Should use methods:
