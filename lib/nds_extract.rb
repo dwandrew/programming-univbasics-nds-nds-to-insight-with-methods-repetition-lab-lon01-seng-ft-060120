@@ -49,8 +49,8 @@ def total_gross(source)
   return total
 end
   
-puts directors_totals
-puts list_of_directors  
+puts directors_totals(source)
+puts list_of_directors(source)  
   # Write this implementation
   #
   # Should use methods:
