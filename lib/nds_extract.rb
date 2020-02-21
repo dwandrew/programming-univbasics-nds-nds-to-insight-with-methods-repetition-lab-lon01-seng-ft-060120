@@ -10,7 +10,7 @@ def directors_totals(source)
     result[director[:name]] = gross_for_director(director)
     director_index += 1
   end
-  pp result
+  #pp result
   result
   
 end
@@ -43,7 +43,7 @@ def total_gross(source)
   index = 0;
   total= 0;
   while index<source.length
-  total += directors_totals["Stephen Spielberg"]
+  total += directors_totals(source["Stephen Spielberg"])
   index+= 1
   end
   puts total
